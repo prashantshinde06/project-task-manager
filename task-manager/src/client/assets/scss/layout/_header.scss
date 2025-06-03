@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;  // Light background to contrast with black links
+  color: #000;
+
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+  }
+
+  &__nav {
+    &-list {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      gap: 1.5rem;
+    }
+
+    &-item {
+      a {
+        text-decoration: none;
+        color: #000;  // Black links
+        font-weight: 500;
+        transition: color 0.3s ease;
+
+        &:hover,
+        &:focus {
+          color: #007bff; // Change color on hover/focus (blue)
+        }
+      }
+    }
+  }
+}

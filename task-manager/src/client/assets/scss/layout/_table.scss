@@ -1,0 +1,80 @@
+.table-wrapper {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+  thead {
+    background-color: #f8f9fa;
+
+    th {
+      padding: 0.75rem 1rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+      vertical-align: middle;
+      white-space: nowrap;
+
+      i {
+        font-size: 1rem;
+        margin-left: 0.4rem;
+        color: #6c757d;
+        transition: transform 0.2s ease;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: #f1f1f1;
+      }
+
+      td {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+        vertical-align: middle;
+
+        i.bi {
+          font-size: 1.2rem;
+        }
+
+        i.bi-check-circle-fill {
+          color: #198754; // Bootstrap green
+        }
+
+        i.bi-x-circle-fill {
+          color: #dc3545; // Bootstrap red
+        }
+      }
+    }
+  }
+}
+
+.table-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  .pagination-buttons {
+    button {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .page-size {
+    select {
+      min-width: 80px;
+      margin-left: 0.5rem;
+    }
+  }
+}

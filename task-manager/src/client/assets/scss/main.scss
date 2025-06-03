@@ -1,0 +1,10 @@
+/* src/styles/main.scss */
+@use 'bootstrap/scss/bootstrap';
+
+
+@use "layout/header";
+@use "layout/modal";
+@use "layout/table";
+@use "layout/layout";
+@use "layout/common";
+@use "layout/login";
