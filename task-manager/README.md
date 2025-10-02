@@ -35,7 +35,7 @@ This project is a User Task Dashboard built using React.js and classic Redux (wi
 - Login screen prompts user to enter username and password (no backend authentication, simulated for demo).  
 - Use the credentials below to log in:  
   - Username: `admin`  
-  - Password: `pass1234`  
+  - Password: `1234`  
 - Upon login, user is redirected to the task dashboard.  
 - Logout option clears user session and redirects to login screen.  
 - Access to task dashboard is restricted to authenticated users only.
