@@ -23,7 +23,7 @@ const Login = () => {
   return (
     <div className="login-page">
       <form className="login-form" onSubmit={handleSubmit}>
-        <h2 className="login-form__title">Login page</h2>
+        <h2 className="login-form__title">Login</h2>
         <input
           className="login-form__input"
           type="text"
