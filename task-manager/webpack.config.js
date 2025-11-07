@@ -17,6 +17,8 @@ module.exports = {
     open: true,
     hot: true,
     historyApiFallback: true,//Required for React Router to work on refresh
+      host: "0.0.0.0",          // Listen on all interfaces
+  allowedHosts: "all"
   },
   module: {
     rules: [
